@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Élan Boutique — Home</title>
+  <link rel="stylesheet" href= "../src/css/Projectcss.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">
+        <span class="brand-mark">ÉB</span>
+        <span class="brand-name">Élan Boutique</span>
+      </a>
+      <nav class="links">
+        <a href="index.html" class="active">Home</a>
+        <a href="about_me.html">About</a>
+        <a href="contact_me.html">Contact</a>
+        <a href="cart.html" class="cart-link" aria-label="Cart">
+          Cart <span id="cartCount" class="cart-count">0</span>
+        </a>
+      </nav>
+    </div>
+  </header>
+
+
+  <section class="hero">
+    <div class="container hero-wrap">
+      <div class="hero-text">
+        <h1>Effortless Elegance</h1>
+        <p>Timeless pieces with modern tailoring — curated for your everyday luxury.</p>
+        <a href="#products" class="btn btn-primary">Shop Collection</a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <img src="../src/Images/Logo.jpeg" alt="Boutique Logo" class="hero-image" />
+      </div>
+    </div>
+  </section>
+
+  <main id="products" class="section">
+    <div class="container">
+      <h2 class="section-title">New Arrivals</h2>
+      <div class="grid products">
+      
+        <article class="card product" 
+          data-id="1"
+          data-name="Tech-ware Cargo"
+          data-price="129"
+          data-image="../src/Images/Cargo.webp">
+          <img src="../src/Images/Cargo.webp" alt="Pants-cargo" />
+          <div class="card-body">
+            <h3>Tech-ware Cargo</h3>
+            <p class="price">$129.00</p>
+            <button class="btn add-to-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        <article class="card product" 
+        data-id="2"
+        data-name="Floral Sundress"
+        data-price="69"
+        data-image="../src/Images/middi.jpeg">
+          <img src="../src/Images/middi.jpeg" alt="Sundress" />
+        <div class="card-body">
+            <h3>Floral Sundress</h3>
+            <p class="price">$69.00</p>
+            <button class="btn add-to-cart">Add to Cart</button>
+          </div>
+        </article>
+
+        
+        <article class="card product"
+        data-id="3"
+        data-name="Leather Jacket"
+        data-price="149"
+        data-image="../src/Images/Jacket.webp">
+          <img src="../src/Images/Jacket.webp" alt="Leather Jacket" />
+          <div class="card-body">
+            <h3>Leather Jacket</h3>
+            <p class="price">$149.00</p>
+            <button class="btn add-to-cart">Add to Cart</button>
+          </div>
+        </article>
+
+       
+        <article class="card product" 
+        data-id="4"
+        data-name="3-piece Suit"
+        data-price="99"
+        data-image="../src/Images/3suit.jpg">
+          <img src="../src/Images/3suit.jpg" alt="shirt and Trousers" />
+          <div class="card-body">
+            <h3>3-piece-Suit</h3>
+            <p class="price">$99.00</p>
+            <button class="btn add-to-cart">Add to Cart</button>
+          </div>
+        </article>
+
+   
+        <article class="card product"
+        data-id="5"
+        data-name="Oversized Hoodie"
+        data-price="79"
+        data-image="../src/Images/Hoodie.webp">
+          <img src="../src/Images/Hoodie.webp" alt="Linen Shirt" />
+          <div class="card-body">
+            <h3>Oversized Hoodie</h3>
+            <p class="price">$79.00</p>
+            <button class="btn add-to-cart">Add to Cart</button>
+          </div>
+        </article>
+        
+        <article class="card product" 
+        data-id="6"
+        data-name="Boots"
+        data-price="30"
+        data-image="../src/Images/boots.jpg">
+          <img src="../src/Images/boots.jpg" alt="Classic Trench Coat" />
+          <div class="card-body">
+            <h3>Boots</h3>
+            <p class="price">$30.00</p>
+            <button class="btn add-to-cart">Add to Cart</button>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </main>
+
+  
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <small>© <span id="year"></span> Élan Boutique</small>
+      <div class="footer-links">
+        <a href="about_me.html">About</a>
+        <a href="contact_me.html">Contact</a>
+        <a href="cart.html">Cart</a>
+      </div>
+    </div>
+  </footer>
+  
+
+  
+
+  <script src="../src/jss/Projectscript.js"></script>
+</body>
+</html>
